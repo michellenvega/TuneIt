@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TuneIt/static/css/main.517b399d.css",
+    "main.js": "/TuneIt/static/js/main.9fe2b28a.js",
+    "static/js/787.28cb0dcd.chunk.js": "/TuneIt/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/TuneIt/index.html",
+    "main.517b399d.css.map": "/TuneIt/static/css/main.517b399d.css.map",
+    "main.9fe2b28a.js.map": "/TuneIt/static/js/main.9fe2b28a.js.map",
+    "787.28cb0dcd.chunk.js.map": "/TuneIt/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.517b399d.css",
+    "static/js/main.9fe2b28a.js"
+  ]
+}
