@@ -1,0 +1,21 @@
+NEXT:
+
+how to check if my guess is right?
+- compare lowercase versions of right answer and guess
+- no whitespace and letters only!!!
+
+RIGHT?
+=> success message
+=> try new lyric?
+WRONG?
+=> error message
+=> guess again? or try new lyric?
+
+NEXT:
+when we can't find lyrics => process all over again!
+
+NEXT:
+add "too hard?" button to give more lines of the same song
+
+DEPLOY:
+gh-pages WITH YARN!!!! not npm. search it up pls

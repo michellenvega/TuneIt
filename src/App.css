@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@300&family=Klee+One&family=Luckiest+Guy&family=Righteous&display=swap');
+
+
+
+.App {
+  text-align: center;
+  background: rgb(244,162,97);
+  background: radial-gradient(circle, rgba(244,162,97,1) 0%, rgba(231,74,35,1) 100%);
+}
+
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+
+.button1{
+background: rgb(244,162,97);
+background: linear-gradient(90deg, rgba(244,162,97,1) 0%, rgba(242,169,138,1) 100%);
+border: solid;
+border-color: #AE2012;
+border-radius: 25px;
+border-width: 1px;
+color: #E5D9BA ;
+padding: 15px 35px ;
+font-family: 'Righteous', cursive;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+margin-bottom: 30px;
+margin-top: 0px;
+font-size: 25px;
+box-shadow: 4px 4px #AE2012;
+}
+
+.button1:hover{
+  font-size: 26px;
+  color: #DBE9EE;
+
+}
+
+.button1:active{
+  color: #AE2012;
+}
+
+.title{
+  color: #E9C46A;
+  font-family: 'Luckiest Guy', cursive;
+  text-shadow: -3px 4px #BC6C25;
+  font-size:128px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  padding-top:0px;
+  margin-top:0px;
+}
+
+.subtitle{
+  font-family: 'Klee One', cursive;
+  color: #AE2012;
+  font-size: 30px;
+  padding-top:0px;
+  margin-top:0px;
+}
+
+
+.how-play-msg{
+  font-family: 'Klee One', cursive;
+  color: #AE2012;
+  font-size: 25px;
+  border-color: #AE2012;
+  background-color: #dbe9ee5c;
+  border-radius: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.lyrics{
+  font-family: 'Klee One', cursive;
+  color: #AE2012;
+  font-size: 25px;
+  padding:10px;
+  margin:10px;
+}
+
+.lyricsbox{
+  background-color: #E9C46A;
+  border-color: #E9C46A;
+  border-radius:25px;
+  border-style:solid;
+  margin-top:30px;
+  margin-bottom:30px;
+  margin-left:160px;
+  margin-right:160px;
+}
+
+.guesstext{
+  font-size:35px;
+  font-family: 'Anek Latin', sans-serif;
+  margin-right: 40px;
+  margin-top: 10px;
+  margin-bottom:60px;
+  border-radius:25px;
+  padding-left: 25px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+.guesstext:focus {
+  background-color:  #E9C46A;
+}
+
+.correctText{
+  color:#AE2012;
+  font-family: 'Anek Latin', sans-serif;
+  font-size: 25px;
+  border-color: #AE2012;
+  border-style: solid;
+  background-color: #dbe9ee5c;
+  border-radius: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 580px;
+  margin-right: 580px;
+}
