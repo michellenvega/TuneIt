@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import HowtoText from './how-to';
 import { songData } from "../top10s.js";
 
@@ -68,7 +68,7 @@ class GameMain extends React.Component {
       this.setState({artist: urartist});
 
       this.fetchSong(urartist, urtitle);
-      if(this.state.lyric == null && this.state.title != "none")
+      if(this.state.lyric === null && this.state.title !== "none")
         this.songRandom();
     }
   
@@ -78,7 +78,7 @@ class GameMain extends React.Component {
 
       console.log(guess);
       console.log(answer);
-      if(guess == answer){
+      if(guess === answer){
         this.setState({correct: true,
         correctText: "Correct!"});
       }
