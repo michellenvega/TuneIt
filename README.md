@@ -69,3 +69,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # TuneIt
+A website where you can guess the title of songs based on some lyrics from the song!
+Uses Genius API to obtain the lyrics.
